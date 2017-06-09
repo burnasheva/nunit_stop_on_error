@@ -10,5 +10,11 @@ namespace FirstProject
         {
             Assert.IsFalse(true);
         }
+
+        [Test]
+        public void ShouldPassTest()
+        {
+            Assert.IsTrue(true);
+        }
     }
 }
