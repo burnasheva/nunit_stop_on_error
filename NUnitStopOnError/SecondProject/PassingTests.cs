@@ -1,3 +1,4 @@
+using System.Threading;
 using NUnit.Framework;
 
 namespace SecondProject
@@ -8,6 +9,7 @@ namespace SecondProject
         [Test]
         public void AlwaysPassingTest()
         {
+            Thread.Sleep(30000);
             Assert.IsTrue(true);
         }
     }
