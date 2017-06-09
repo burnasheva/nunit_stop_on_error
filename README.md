@@ -1,0 +1,1 @@
+# nunit_stop_on_error
